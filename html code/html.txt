@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loen Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- start header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="photo/logo.png" style="width: 80px;" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#ser">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#por">Portfilo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#abo">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#con">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="continer">
+            <a href="#" class="logo"><img src="photo/logo.png" alt=""></a>
+            <div class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul>
+                    <li><a href="#ser">Service</a></li>
+                    <li><a href="#por">Portfilo</a></li>
+                    <li><a href="#abo">About</a></li>
+                    <li><a href="#con">Contact</a></li>
+
+                </ul>
+            </div>
+        </div> -->
+    </div>
+    <!-- end header -->
+    <!-- start photo -->
+    <div class="photo">
+        <div class="continer">
+            <h2>Hello There</h2>
+            <h3>We Are Loen-super Creative & <br> Minmal Agency Web Templated</h3>
+        </div>
+    </div>
+    <!-- end photo -->
+    <!-- start futer -->
+    <div class="futer">
+        <div class="continer">
+            <div class="box">
+                <i class="fa-solid fa-head-side-virus" style="color: #000000;"></i>
+                <h2>Tell Us Your Idea</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, iusto! Dolor aspernatur quae fugit ratione?</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-briefcase" style="color: #000000;"></i>                <h2> We Will Do All The Work</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, iusto! Dolor aspernatur quae fugit ratione?</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+                <h2>Your Product Is Worldwide</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, iusto! Dolor aspernatur quae fugit ratione?</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- end futer -->
+    <!-- start service -->
+    <div class="service" id="ser">
+        <div class="continer">
+            <h2 class="main">Services</h2>
+            <p>Dont By Busy,produtcive</p>
+        </div>
+        <div class="content">
+            <div class="col">
+                <div class="box">
+                    <h2><i class="fa-solid fa-palette" style="color: #000000;"></i> Graphic Designer</h2>
+                    <p> Graphic design is the process of visual communication and problem-solving using one or more of typography, photography and illustration. </p>
+                    
+                </div>
+                <div class="box">
+                    <h2><i class="fa-brands fa-uikit" style="color: #000000;"></i> Ui & Ux</h2>
+                    <p> Process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction. </p>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <h2><i class="fa-solid fa-computer" style="color: #000000;"></i>Web Design</h2>
+                    <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites. </p>
+
+
+                </div>
+                <div class="box">
+                    <h2><i class="fa-regular fa-object-ungroup" style="color: #000000;"></i>Web Devlopment</h2>
+                    <p> Web development is a broad term for the work involved in developing a web site for the Internet or an intranet. </p>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="photo/services.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- start portfilo -->
+    <div class="portfilo" id="por">
+        <div class="continer">
+            <h2 class="main">Portfilo</h2>
+            <p>If You Do it Right, It Will Last Forever</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <img src="photo/portfolio-1.jpg" alt="">
+                <div class="text">
+                    <h2>Project Here</h2>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising and</p>
+                    <a href="#">Read More <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/portfolio-2.jpg" alt="">
+                <div class="text">
+                    <h2>Project Here</h2>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising and</p>
+                    <a href="#">Read More <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/portfolio-3.jpg" alt="">
+                <div class="text">
+                    <h2>Project Here</h2>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising and</p>
+                    <a href="#">Read More <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end portfilo -->
+    <!-- start about -->
+    <div class="about" id="abo">
+        <div class="continer">
+            <h2 class="main">About</h2>
+            <p>Less In More Work</p>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img src="photo/about.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nemo laboriosam quaerat in quia saepe debitis neque iste et tempore corrupti quis voluptatum dolore fugiat eum ipsa ducimus a voluptatem.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam corrupti temporibus dolores minima molestiae accusantium totam eligendi? In nemo pariatur eum vero possimus, facere delectus aspernatur tenetur iusto voluptatem quos.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start contact -->
+    <div class="contact" id="con">
+        <div class="continer">
+            <h2 class="main">Contact</h2>
+            <p>We Are Born To Create</p>
+        </div>
+        <div class="content">
+            <h2>Feel Free To Drop Us A Line At</h2>
+            <h3>Leonagency@mail.com</h3>
+            <h5>find us on social Nerwork:</h5>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #0000ff;"></i></a>
+            <a href="#"> <i class="fa-brands fa-facebook-messenger" style="color: #0000ff;"></i></a>
+            <a href="#"> <i class="fa-brands fa-linkedin" style="color: #0000ff;"></i></a>
+            <a href="#"><i class="fa-brands fa-github" style="color: #0000ff;"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #ff0000;"></i></a>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="continer">
+            <h2>&copy; 2021 loen All Right Reverser</h2>
+            <h2>Powerd By Elzero Academy</h2>
+            <h2>By Omar Rehan</h2>
+        </div>
+    </div>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
